@@ -1,0 +1,79 @@
+\documentclass[ebook,article,11pt]{memoir}
+
+% \usepackage{setspace}
+
+\usepackage{mdframed}
+
+\definecolor{myblue}{RGB}{190,190,255}
+
+\newmdenv[backgroundcolor=myblue,roundcorner=2pt,skipabove=3pt,skipbelow=3pt,%
+          hidealllines=true,font=\small,splittopskip=0.45cm,splitbottomskip=0.1cm]{block}
+
+% \usepackage{tikz}
+
+% \tikzstyle{block} = [rectangle, thick, fill=myblue, text width=\textwidth - 0.2cm, %<---------= 
+%              rounded corners, minimum height=1em, font=\small,
+%              minimum width=\textwidth]
+
+% \usetikzlibrary{shadows}
+
+
+\renewcommand{\rmdefault}{ppl}
+% \setstretch{1.5}
+
+\author{Daoud Clarke}
+
+\title{\textbf{Professional, Confident Email Writing}\\
+Email Writing Format and Style}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+
+\chapter{Clearly understand the business need}
+
+
+\begin{block}[frametitle={Metrics}]
+
+``Well, I've done some research,'' says Samantha, ``and it seems that
+state of the art accuracy for sentiment analysis is about 85\%. I'm
+not sure whether it's possible yet, but if we could get that level of
+recall on our data, would it be acceptable?'' She couldn't find much
+research that mentioned recall, but she's hoping that as all the
+experiments were done on unbiased data, 85\% accuracy will translate
+to roughly the same level of recall.
+
+``Hmm, recall,'' says Dave, ``I know what that means.'' Dave has been
+reading up on machine learning. ``You're saying that we're going to
+miss 15\% of the important emails? I'm not sure that would be
+acceptable.''
+
+``Well, what kind of value \emph{would} be acceptable?'' asks
+Samantha.
+
+``Well, I suppose we could get away with 95\% recall.''
+
+\end{block}
+
+
+\newpage
+\chapter*{Conclusion}
+
+We have only touched on some of the issues you are likely to encounter
+when implementing a system which uses machine learning. Many of these
+issues are common to software projects in general; in fact, my final
+message is that a project that uses machine learning is still
+primarily a software project. The actual code relating to machine
+learning in such a project is likely to be as little as 10\%. Treat
+the project as you would any other software project, follow industry
+best practices, and know what you're talking about, and you'll be fine.
+
+\begin{block}
+% \vspace{0.5cm}
+% \noindent
+\texttt{daoud.clarke@gmail.com}
+\end{block}
+\end{document}
