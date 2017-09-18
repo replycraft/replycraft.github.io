@@ -4,7 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 body {
-  font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /* font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
   font-size: 18pt;
   position: relative;
   width: 100%;
@@ -101,8 +102,8 @@ a {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
-  background-color: black;
+  /* background: url("../img/intro-bg.jpg") no-repeat bottom center scroll; */
+  background-color: #000044;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -478,3 +479,14 @@ Pricing table
     -moz-border-radius: 10px;
     border-radius: 10px;
 }
+
+.form-control-lg {
+    width: 100%;
+}
+
+textarea {
+    resize:none;
+    min-height: 200px;
+    width: 100%;
+}
+
